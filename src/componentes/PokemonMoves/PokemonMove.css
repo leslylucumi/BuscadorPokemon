@@ -1,0 +1,15 @@
+.o-cardMove{
+    text-align: center;
+    width: 90%;
+}
+.o-namemove{
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .o-url{
+        text-align: center;
+        margin: 1rem;
+    }
+}

@@ -1,0 +1,78 @@
+.o-navbar{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    
+  }
+  .o-header{
+    box-shadow: 1px 1px 1px #2e66ae;
+    background-color: #000000;
+  }
+  
+  .o-topnav a {
+    float: left;
+    display: flex;
+    color: white;
+    padding: 14px 20px;
+    margin-right: 0.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  
+  .o-topnav a:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color:	#ffcc01;
+  width: 0;
+  left: 50%;
+  bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+  
+  .o-topnav a:hover {
+  color: #ffcc01;
+  }
+  
+  .o-topnav a:hover:after {
+  width: 100%;
+  }
+  
+  .o-containerNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .o-logo{
+    width: 30%;
+    height: 30%;
+  }
+  .o-headerButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.5rem;
+  }
+  .o-portada{
+    display: flex;
+    width: 100%;
+    padding-top: 1rem;
+    justify-content: center;
+  }
+  @media only screen and (max-width: 1000px){
+    .o-logo{
+      width: 10%;
+      height: 10%;
+    }
+    .o-headerButtons{
+      display: flex;
+      justify-content: center;
+    }
+  }

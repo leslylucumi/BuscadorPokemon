@@ -1,0 +1,21 @@
+.o-abilities{
+    display: flex;
+    flex-wrap: wrap;
+}
+.o-url{
+    font-size: 0.9rem;
+}
+@media only screen and (max-width: 1000px){
+    .o-urlabilities{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .o-url{
+        display: flex;
+        word-break: break-all;
+        font-size: 0.7rem;
+    }
+    .o-nameability{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,11 @@
+.o-port{
+    width: 50%;
+}
+.o-img{
+    width: 100%;
+    align-self: center;
+}
+img{
+    display:block;
+    margin:auto;
+    }

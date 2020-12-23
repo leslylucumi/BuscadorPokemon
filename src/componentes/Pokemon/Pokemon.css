@@ -1,0 +1,65 @@
+.o-cardpokemon{
+    border: 1px  #2e66ae;
+    font-family: 'Pokemon GB', sans-serif; 
+    background-color: bisque;  
+    width: 50%;
+    
+}
+.o-btn{
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: white;
+    border: 0;
+}
+.o-titlepokemon{
+    background-color:  #ffcc01;
+    padding: 0.5rem;
+}
+.o-Pname{
+    display: flex;
+    align-items: center;
+}
+.o-nameandimg{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 60px 60px 10px 10px;
+    margin: 1rem;
+}
+img{
+    width: auto;
+    height: 10rem;
+}
+.o-infopokemon{
+    align-items: flex-end;
+}
+.o-abilities{
+    display: flex;
+    margin: 1rem;
+}
+.o-buttonMoves{
+    background-color: #ffcc01;
+    padding: 0.5rem;
+}
+@media only screen and (max-width: 1000px){
+    .o-Pname{
+        font-size: small;
+        margin: 1rem;
+    }
+    .o-nameandimg{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    img{
+        height: 8rem;
+    }
+    .o-abilities{
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+    .o-cardpokemon{
+        width: 90%;
+    }
+    
+}

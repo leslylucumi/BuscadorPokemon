@@ -1,0 +1,18 @@
+.o-CardPokemonMoves{
+    font-family: 'Pokemon GB', sans-serif; 
+    background-color: bisque;  
+    width: 35rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    margin: 1rem;
+    padding: 1rem;
+}    
+.o-cardmoves{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 1000px){
+    .o-CardPokemonMoves{
+        text-align: center;
+    }
+}
