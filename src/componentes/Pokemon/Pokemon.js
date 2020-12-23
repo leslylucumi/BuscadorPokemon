@@ -40,9 +40,7 @@ class Pokemon extends Component {
         <div className = "o-infopokemon">
         <div className="o-abilities">Abilities: {abilities}</div>
         <div class="o-button">
-          <button className="o-btn" onClick={this.mostrarInfo}>
-            <Link to = {"/moves/" + pokemonName}>Ver moves </Link>
-          </button>
+            <Link to = {"/moves/" + pokemonName}><button className="o-btn">Ver moves</button></Link>
         </div>
         </div>
       </div>

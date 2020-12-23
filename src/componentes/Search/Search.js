@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Pokemon from "../Pokemon/Pokemon";
-import PokemonMoves from "../PokemonMoves/PokemonMoves";
 import "./Search.css";
 
 

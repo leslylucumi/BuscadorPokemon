@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Portada from "./Portada"; 
 import "./Navbar.css";
 

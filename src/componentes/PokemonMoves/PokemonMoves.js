@@ -40,7 +40,7 @@ class PokemonMoves extends Component {
       <div className= "o-CardPokemonMoves">
         <div className="o-moves">{this.state.data.moves.length > 0 ? moves: <div></div>}</div>
         <div className = "o-button">
-        <button className = "o-buttonVolver"><Link to = {"/"}>Volver</Link> </button>
+        <Link to = {"/"}><button className = "o-buttonVolver">Volver</button></Link> 
         </div>
       </div>
       </div>

@@ -3,7 +3,7 @@ import ImagenPortada from "../Navbar/ImagenPortada"
 
 
 const Portada =(props)=>{
-    const {imagenPortada, tituloPortada} = props;
+    const {imagenPortada} = props;
     return (
         <div class = "o-cardp">
             <div class = "o-imagenp">

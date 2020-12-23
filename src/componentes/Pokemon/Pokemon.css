@@ -10,6 +10,12 @@
     padding: 0.5rem;
     background-color: white;
     border: 0;
+    color: #2e66ae;
+    transition: all 0.25s;
+}
+.o-btn:hover{
+    color: black;
+    background-color: #ffcc01;
 }
 .o-titlepokemon{
     background-color:  #ffcc01;
